@@ -32,16 +32,18 @@ export interface SummaryCard {
   bgColor: string;
 }
 
-// Add this to your existing /types/index.ts
-
 export interface Product {
   id: string;
   name: string;
   sku: string;
   category: string;
+  brand: string;
+  image: string;
   price: number;
   stock: number;
-  sold: number;
-  status: 'Active' | 'Low Stock' | 'Out of Stock';
+  sales: number;
+  rating: number;
+  createdAt: string;
+  status: 'In Stock' | 'Low Stock' | 'Out of Stock';
   trend: 'up' | 'down';
 }

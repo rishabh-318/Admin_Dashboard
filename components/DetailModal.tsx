@@ -536,7 +536,7 @@ function ProductDetails({
               flexShrink: 0,
             }}
           >
-            {product.image || '📦'}
+            /
           </div>
 
           <div style={{ minWidth: 0 }}>
