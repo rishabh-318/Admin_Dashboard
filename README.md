@@ -1,3 +1,12 @@
+## Demo Credentials
+
+Use the following demo account to access the admin dashboard:
+
+- **Email:** admin@company.com
+- **Password:** admin123
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
